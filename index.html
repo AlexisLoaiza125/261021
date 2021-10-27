@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+</head>
+<body>
+    <script>
+        var arreglo = [2,3,4,5,6,7,8,9,0];
+        var actividad = 0;
+        while (actividad < arreglo.length) {
+            if (actividad%2==0){
+                console.log("par",actividad)
+            }
+            else if(actividad%2==1){
+                console.log("impar",actividad)
+            }
+            actividad++
+        }
+        var arreglo = [2,3,4,5,6,7,8,9,0];
+        var actividad = 0;
+        while (actividad < arreglo.length) {
+            if (arreglo[actividad]%2==0){
+                console.log("par",arreglo[actividad])
+            }
+            else if(actividad%2==1){
+                console.log("impar",arreglo[actividad])
+            }
+            actividad++
+        }
+
+        var frutaPreferida = "manzana";
+        switch (frutaPreferida) {
+            case "mango":
+                console.log("su fruta preferida es el mango");
+                break;
+            case "banana":
+                console.log("su fruta preferida es la banana");
+                break;
+            case "cereza":
+                console.log("su fruta preferida es le cereza");
+                break;
+            default:
+                console.log("su fruta preferida no la tenemos en el almacen");  
+        }
+
+
+        var dia = "martes";
+        switch (dia) {
+            case "martes":
+                console.log("MARTES");
+                break;
+            case "miercoles":
+                console.log("MIERCOLES");
+                break;
+            case "jueves":
+                console.log("JUEVES");
+                break;
+            case "viernes":
+                console.log("VIERNES");
+                break;
+            case "sabado":
+                console.log("SABADO");
+                break;
+            case "domingo":
+                console.log("DOMINGO");
+                break;
+            case "lunes":
+                console.log("LUNES");
+                break;
+        }
+    </script>
+</body>
+</html>
